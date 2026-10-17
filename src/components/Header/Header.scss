@@ -1,0 +1,31 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 24px;
+}
+
+.header-logo {
+  display: flex;
+  align-items: center;
+  gap: 10px; // Відстань між іконкою та текстом
+  text-decoration: none; // Прибираємо підкреслення посилання
+  
+  &__img {
+    width: 24px;
+    height: 24px;
+  }
+
+  &__text {
+    color: var(--color-text);
+    font-family: 'JetBrains Mono', monospace;
+    font-weight: 700;
+    font-size: 16px;
+  }
+}
+
+.data-currency {
+  color: var(--neutral-200);
+  margin: 0;
+  font-size: 14px;
+}
